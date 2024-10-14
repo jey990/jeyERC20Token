@@ -1,0 +1,43 @@
+.exit
+.help
+end
+quit
+npx hardhat run scripts/deploy.js --network sepolia
+end
+close
+let balance = await JeyToken.getBalanceOf(deployer.address);
+let newbalance = await myToken.getBalanceOf(deployer.address);
+let balance = await myToken.getBalanceOf(deployer.address);
+console.log("Solde après mint:", balance.toString());
+let balance = await myToken.getBalanceOf(deployer.address);
+await myToken.mint(deployer.address, 1000);
+const [deployer] = await ethers.getSigners();
+const myToken = await MyToken.attach(contractAddress);
+const contractAddress = "0x7B1677f47Bf09A8043Ae488D23Cdce394Ec9DE71";
+const MyToken = await ethers.getContractFactory("MyToken");
+// Obtenons l'usine de contrats pour MyToken
+npx hardhat console --network sepolia
+const myToken = await MyToken.attach(contractAddress);
+// Connectons-nous au contrat déployé
+const contractAddress = "0xTonAdresseDeContratIci";
+// Adresse du contrat déployé (remplace-la par la tienne)
+const MyToken = await ethers.getContractFactory("MyToken");
+// Obtenons le contrat MyToken
+await myToken.mint(deployer.address, 1000);
+const [deployer] = await ethers.getSigners();
+console.log("Solde après mint:", balance.toString());
+let balance = await myToken.getBalanceOf(deployer.address);
+// Vérifier le solde après mint
+await myToken.mint(deployer.address, 1000);
+// Minter 1000 jetons pour ton adresse (deployer.address)
+deployer.address
+// Vérifier ton adresse (optionnel)
+const [deployer] = await ethers.getSigners();
+// Obtenir l'adresse de ton portefeuille MetaMask
+const myToken = await MyToken.attach(contractAddress);
+const contractAddress = "0x7B1677f47Bf09A8043Ae488D23Cdce394Ec9DE71";
+const contractAddress = "0xTonAdresseDeContratIci";
+const MyToken = await ethers.getContractFactory("MyToken");
+const MyToken = await ethers.getContractFactory("JeyToken");
+const MyToken = await ethers.getContractFactory("MyToken");
+.help
